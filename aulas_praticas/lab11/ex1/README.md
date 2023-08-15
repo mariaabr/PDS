@@ -1,0 +1,2 @@
+Um padrão que pode ser aplicado para cumprir os requisitos do exercício, que é também o padrão que escolhemos para a sua resolução, é o padrão Strategy.
+No entanto, também podem ser aplicados os padrões Null Object ou Iterator.

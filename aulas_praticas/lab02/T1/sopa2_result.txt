@@ -1,0 +1,52 @@
+P E V W C R A C N A R F 
+F S B C B A Z Z L B A A 
+F K C G M O N L Q H E R 
+R M H W T R A A N V S G 
+W G I L L G I A D C P E 
+Y G N Y U T M D K A A N 
+M P A T A E Z J Y O N T 
+U Q R L L G S W R C H I 
+X O I A H N A I J C A N 
+P A S W F H A L K O M A 
+Y O N X O A P A J C T L 
+B R A S I L Z K G L K E 
+
+Palavras a encontrar: 
+ALEMANHA
+ARGENTINA
+BRASIL
+CANADA
+CHINA
+ESPANHA
+FRANCA
+ITALIA
+JAPAO
+PORTUGAL
+
+
+Words             Size              Pos               Search           
+
+ALEMANHA          8                 9,4               UpRight           
+ARGENTINA         9                 2,12              Down              
+BRASIL            6                 12,1              Right             
+CANADA            6                 1,5               DownRight         
+CHINA             5                 3,3               Down              
+ESPANHA           7                 3,11              Down              
+FRANCA            6                 1,12              Left              
+ITALIA            6                 5,7               DownLeft          
+JAPAO             5                 11,9              Left              
+PORTUGAL          8                 10,1              UpRight           
+
+ . . . . C . A C N A R F
+ . . . . . A . . . . A A
+ . . C . . . N L . H E R
+ . . H . . . A A N . S G
+ . . I . . G I A D . P E
+ . . N . U T M . . A A N
+ . . A T A E . . . . N T
+ . . R L L . . . . . H I
+ . O I A . . . . . . A N
+ P A . . . . . . . . . A
+ . . . . O A P A J . . .
+ B R A S I L . . . . . .
+

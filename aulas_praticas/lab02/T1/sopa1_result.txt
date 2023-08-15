@@ -1,0 +1,46 @@
+E J V K U G U D M S U L 
+D C U Q M N Z J O K P I 
+N I N G C I N A X H M N 
+X M T Z H M S D R O W E 
+U K I Q L M T S Z P D S 
+S K L I G A K S R X J W 
+D H V P U R X K E D Y B 
+X I R R J G P L C T A S 
+C X A K G O B A X A D N 
+C F L Q T R K B V Q T E 
+L L D B U P J B D A R S 
+Z P M G N W X T N F J H 
+
+Palavras a encontrar: 
+PROGRAMMING
+JAVA
+WORDS
+LINES
+CIVIL
+TEST
+STACK
+
+
+Words             Size              Pos               Search           
+
+PROGRAMMING       11                11,6              Up                
+JAVA              4                 12,11             UpLeft            
+WORDS             5                 4,11              Left              
+LINES             5                 1,12              Down              
+CIVIL             5                 9,1               UpRight           
+TEST              4                 8,10              UpLeft            
+STACK             5                 11,12             UpLeft            
+
+ . . . . . G . . . . . L
+ . . . . . N . . . . . I
+ . . . . . I . . . . . N
+ . . . . . M S D R O W E
+ . . . . L M T . . . . S
+ . . . I . A . S . . . .
+ . . V . . R . K E . . .
+ . I . . . G . . C T . .
+ C . . . . O . A . A . .
+ . . . . . R . . V . T .
+ . . . . . P . . . A . S
+ . . . . . . . . . . J .
+

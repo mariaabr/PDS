@@ -1,0 +1,9 @@
+rato
+monitor 
+teclado 
+computador
+grafica
+padrao 
+software
+display
+middleware

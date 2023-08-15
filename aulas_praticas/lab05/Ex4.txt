@@ -1,0 +1,29 @@
+A classe java.util.Calendar é uma classe abstrata que implementa vários métodos.
+
+Ao chegar às linhas 937 e 949, observa-se a existência de dois construtores da classe Calendar que podem ser inicializados sem argumentos de entrada ou com argumentos de entrada como localidade e fuso horário.
+
+sem argumentos de entrada: protected Calendar()
+com argumentos de entrada: protected Calendar(TimeZone zone, Locale aLocale)
+
+Um fator a destacar é os construtores serem protegidos, ou seja, são acessíveis apenas no mesmo package e subclasses.
+
+Para além disso, a classe Calendar fornece um método estático getInstance(), que pode ter argumentos de entrada como TimeZone e data atual, para criar um objeto Calendar e, posteriormente, retorná-lo.
+Independemente dos argumentos de entrada do getInstance(), é sempre chamado o método creatCalendar() que irá, eventualmente, criar um calendário de entre três tipos (caltype = japanese, caltype = buddhist or caltype = gregorian).
+
+Criar calendário Japonês:
+    - cal = new JapaneseImperialCalendar(zone, aLocale);
+Criar calendário Budista:
+    - cal = new BuddhistCalendar(zone, aLocale);
+Criar calendário Gregoriano:
+    - cal = new GregorianCalendar(zone, aLocale);
+
+No método creatCalendar() dá-se return do calendário criado.
+
+Padrão de construção:
+Com o que se observou no método creatCalendar() podemos concluir que o padrão de construção aplicado é o Factory Method.
+Este padrão fornece uma interface para criar objetos numa superclasse mas permite que o tipo de objetos criados seja alterado.
+Usando o operador new fazem-se chamadas a um factory method em vez de se fazer uma chamada direta à construção de objetos, o que é efetuado no método creatCalendar().
+Resumindo, a classe Calendar é a fábrica e os calendários são os produtos produzidos pela classe.
+
+
+Por fim, seguindo o resto do código, grande parte do mesmo diz respeito a outros métodos nomeadamente getters e setters para que o programa funcione como o pretendido.

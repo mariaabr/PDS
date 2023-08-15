@@ -1,0 +1,4 @@
+I lab03/gestor_aviao/flight1.txt
+M TP1920
+R TP1920 T 5
+M TP1920

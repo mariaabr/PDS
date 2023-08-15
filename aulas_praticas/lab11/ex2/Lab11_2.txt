@@ -1,0 +1,56 @@
+O padrão Template Method é um padrão comportamental que define uma estrutura de um algoritmo numa superclasse mas que permite
+às subclasses rescreverem métodos do algoritmo sem mudar a estrutura principal.
+
+Selecionando as classes java.io.InputStream, java.io.Reader e java.util.AbstractList poderemos usá-las como exemplos onde se aplica o padrão anteriormente explicado.
+
+Classe java.io.InputStream:
+
+    Cria-se a classe abstrata InputStream:
+
+        public abstract class InputStream implements Closeable {...}
+
+    Posteriormente criam-se vários métodos. Para além destes, é criado um método abstrato read():
+
+        public abstract int read()
+        
+    Este método abstrato read() pode ser rescrito e pode ser usado noutras classes como no caso
+    da classe BufferedInputStream que extende a classe FilterInputStream que por sua vez extende a classe InputStream.
+
+    Apesar de no método read() da classe FilterInputStream este não rescrever o conteúdo do método read() da classe FiltInputStream, na classe BufferedInputStream que
+    extende a classe FilterInputStream rescreve o conteúdo do método read() da classe InputStream, implementando, assim o padrão Template Method.
+
+Classe java.io.Reader:
+
+    Cria-se a classe abstrata Reader:
+
+        public abstract class Reader implements Readable, Closeable {...}
+    
+    Posteriormente criam-se vários métodos. Para além destes, são criados os métodos abstratos read() e close():
+
+        public abstract int read(char cbuf[], int off, int len)
+        public abstract void close()
+
+    Estes métodos abstratos read() e close() podem ser rescritos e podem ser usados noutras classes como no caso
+    da classe CharArrayReader que extende a classe Reader.
+
+    Esta classe CharArrayReader reescreve o conteúdo do método read() da classe Reader, implementando, assim o padrão Template Method.
+
+Classe java.util.AbstractList:  
+
+    Cria-se a classe abstrata AbstractList:
+
+        public abstract class AbstractList<E> extends AbstractCollection<E> implements List<E>
+    
+    Posteriormente criam-se vários métodos. Para além destes, é criado o método abstrato get():
+
+        public abstract E get(int index)
+    
+    Este método abstrato get() pode ser rescrito e pode ser usado noutras classes como no caso
+    da classe SubList que extende a classe AbstractList.
+
+    Esta classe SubList reescreve o conteúdo do método get() da classe AbstractList, implementando, assim o padrão Template Method.
+
+
+
+    
+

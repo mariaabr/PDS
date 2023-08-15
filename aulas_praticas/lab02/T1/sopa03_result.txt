@@ -1,0 +1,66 @@
+J O Q E V B Z K P S H L J M F S A D T J 
+T T E C L A D O B P E S I E W P S M W U 
+W L Q R E W W R R M W F W T N F X J E W 
+D S I V E V L T K Y Y I O Z X B J N E I 
+R D I S Z U P Z Z E D E T P E S F F Y N 
+W I W V Q O R V T H O W P Z U C H P K E 
+K S P O L L V B A N B V C Q O O Y V J H 
+X P X R E U J K D Q P H J T X C X O M S 
+B L C M O R H B B X C L Q W C A D Y W O 
+Z A J B W D A V S J G S T N O S T C B F 
+Z Y H V A Z A W S R B T X F U R M Q D T 
+T I O H C F R T E E O H V U U Y I O E W 
+G M T A I T P G U L D T I I M I P Y K A 
+C W A U F L M B E P D B I P X B P Y O R 
+O J R J A W R G B W M D Q N M F I F J E 
+J V Z Y R V J X B M R O I B O L H G Z O 
+F E O W G L G U I S C U C M X M F G U A 
+P X P G I M Z J L U U E Y K L U F A A P 
+J A J T A O Z O A R D A P E Y C L T X C 
+H M T N V W W N B I H U O Z J E X E R R 
+
+Palavras a encontrar: 
+RATO
+MONITOR
+TECLADO
+COMPUTADOR
+GRAFICA
+PADRAO
+SOFTWARE
+DISPLAY
+MIDDLEWARE
+
+
+Words             Size              Pos               Search           
+
+RATO              4                 15,3              Up                
+MONITOR           7                 17,16             UpLeft            
+TECLADO           7                 2,2               Right             
+COMPUTADOR        10                17,13             UpLeft            
+GRAFICA           7                 17,5              Up                
+PADRAO            6                 19,13             Left              
+SOFTWARE          8                 8,20              Down              
+DISPLAY           7                 5,2               Down              
+MIDDLEWARE        10                17,14             UpLeft            
+
+ . . . . . . . . . . . . . . . . . . . .
+ . T E C L A D O . . . . . . . . . . . .
+ . . . . . . . . . . . . . . . . . . . .
+ . . . . . . . . . . . . . . . . . . . .
+ . D . . . . . . . . . . . . . . . . . .
+ . I . . . . . . . . . . . . . . . . . .
+ . S . . . . . . . . . . . . . . . . . .
+ . P . R E . . . . . . . . . . . . . . S
+ . L . . O R . . . . . . . . . . . . . O
+ . A . . . D A . . . . . . . . . . . . F
+ . Y . . A . A W . R . . . . . . . . . T
+ . . O . C . . T E . O . . . . . . . . W
+ . . T . I . . . U L . T . . . . . . . A
+ . . A . F . . . . P D . I . . . . . . R
+ . . R . A . . . . . M D . N . . . . . E
+ . . . . R . . . . . . O I . O . . . . .
+ . . . . G . . . . . . . C M . M . . . .
+ . . . . . . . . . . . . . . . . . . . .
+ . . . . . . . O A R D A P . . . . . . .
+ . . . . . . . . . . . . . . . . . . . .
+
